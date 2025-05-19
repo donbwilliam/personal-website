@@ -1,0 +1,19 @@
+.home-page{
+    border:1px solid red;
+}
+.page-content{
+    width: auto;
+    min-height: 100%;
+}
+footer{
+    border: 1px solid black;
+}
+.ele-border{
+    border:4px solid red;
+}
+.form-horizontal{
+    align-items: center;
+}
+.contact-page-content{
+    margin-left: 20%;
+}
