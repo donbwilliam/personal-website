@@ -1,42 +1,190 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>personal-website</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!-- CSS Libraries -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.v3-4-1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--<link rel="stylesheet" href="css/bootstrap.v3-4-1.css"> -->
+        <link rel="stylesheet" href="css/adminlte.css">
+        <link rel="stylesheet" href="css/fontawesome-free/css/all.css">
+       <!--
+
         <script src="js/jquery.v3-7-1.js"></script>
         <script src="js/bootstrap.v3-4-1.js"></script>
+       
+       --> 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body >
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Personal Profile</a>
-              </div>
-              
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-        </nav>
-        <div class="container  ele-border">
-            <h1>Home page</h1>
+        <div class="wrapper">
+        <div class="col-12 col-lg-12 main-menu">
+            <nav class="main-header navbar navbar-expand-md navbar-primary navbar-dark">
+                <div class="container">
+                  <a href="index.html" class="navbar-brand">
+                    <span class="brand-text font-weight-light">My profile</span>
+                  </a>
+            
+                  <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto" -->
+                  <div class="collapse navbar-collapse order-3 " id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="order-md-3 navbar-nav  ml-auto">
+                        <li class="nav-item d-none d-sm-inline-block active">
+                            <a href="#" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item d-none d-sm-inline-block">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                          </li><!--
+                          <li class="nav-item d-none d-sm-inline-block">
+                              <a href="contact.html" class="nav-link">Contact</a>
+                            </li>-->
+                      
+                    </ul>
+            
+                    
+                  </div>
+                  
+                  <!-- Right navbar links -->
+                  
+                </div>
+              </nav>
+
+
+            
+
+
+
+          </div>
+        <div class="container ">
+            <section class="content-header">
+                <div class="container-fluid">
+                  <div class="row mb-2">
+                    
+                    
+                  </div>
+                </div><!-- /.container-fluid -->
+              </section>
             <div class="row page-content">
-                <div class="col-sm-8 home-page">.col-sm-4</div>
-                <div class="col-sm-4 home-page">.col-sm-4</div>
+                <div class="col-sm-8 home-page-prof">
+                    <h1>I'm</h1>
+                    <h2>Bamulanzeki William</h2>
+                    <p class="proffession-label">Website developer</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Front end</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <p><code>HTML</code></p>
+
+                                <div class="progress">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <span class="sr-only">80% Complete (success)</span>
+                                </div>
+                                </div>
+                                <p><code>javascript</code></p>
+                               
+                                <div class="progress">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                                </div>
+                                <p><code>jquery</code></p>
+
+                                <div class="progress">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60% Complete (warning)</span>
+                                </div>
+                                </div>
+                                <p><code>bootstrap</code></p>
+                                
+                                <div class="progress ">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete (warning)</span>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col (left) -->
+                        <div class="col-md-6">
+                            <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Backend</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <p><code>PHP</code></p>
+
+                                <div class="progress">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete (success)</span>
+                                </div>
+                                </div>
+                                <p><code>MSQL</code></p>
+                                
+                                <div class="progress ">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                                </div>
+                                <p><code>codeigniter</code></p>
+                                 
+                                <div class="progress ">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete (warning)</span>
+                                </div>
+                                </div>
+                                <p><code>postgresql</code></p>
+                                
+                                <div class="progress ">
+                                <div class="progress-bar bg-primary " role="progressbar"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span class="sr-only">90% Complete (warning)</span>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        </div>
+                </div>
+                <div class="col-sm-4 prof-pic-div">
+                    <img src="img/potraite.png" alt="photo" class="profile-pic"  />
+                </div>
                 
               </div> 
 
         
-            <footer class="row">
-                Designed by wb
-            </footer>
+            
         </div>
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2025 </strong>
+            
+        </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap 4 -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!-- AdminLTE App -->
+        <script src="js/adminlte.js"></script>
+    </div>
     </body>
 </html>
 

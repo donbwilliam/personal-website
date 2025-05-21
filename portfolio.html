@@ -1,42 +1,273 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>personal-website</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!-- CSS Libraries -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.v3-4-1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--<link rel="stylesheet" href="css/bootstrap.v3-4-1.css"> -->
+        <link rel="stylesheet" href="css/adminlte.css">
+        <link rel="stylesheet" href="css/fontawesome-free/css/all.css">
+       <!--
+
         <script src="js/jquery.v3-7-1.js"></script>
         <script src="js/bootstrap.v3-4-1.js"></script>
+       
+       --> 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body >
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Personal Profile</a>
-              </div>
-              
-              <ul class="nav navbar-nav navbar-right">
-                <li ><a href="index.html">Home</a></li>
-                <li class="active"><a href="#">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-        </nav>
-        <div class="container  ele-border">
-            <h1>Portfolio page</h1>
-            <div class="row page-content">
-                <div class="col-sm-8 home-page">.col-sm-4</div>
-                <div class="col-sm-4 home-page">.col-sm-4</div>
-                
-              </div> 
+        <div class="page-content">
+        <div class="col-12 col-lg-12 main-menu">
+            <nav class="main-header navbar navbar-expand-md navbar-primary navbar-dark">
+                <div class="container">
+                  <a href="index.html" class="navbar-brand">
+                    <span class="brand-text font-weight-light">My profile</span>
+                  </a>
+            
+                  <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto" -->
+                  <div class="collapse navbar-collapse order-3 " id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="order-md-3 navbar-nav  ml-auto">
+                        <li class="nav-item d-none d-sm-inline-block ">
+                            <a href="index.html" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item d-none d-sm-inline-block active">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                          </li>
+                          <!--
+                          <li class="nav-item d-none d-sm-inline-block">
+                              <a href="contact.html" class="nav-link">Contact</a>
+                            </li>-->
+                      
+                    </ul>
+            
+                    
+                  </div>
+                  
+                  <!-- Right navbar links -->
+                  
+                </div>
+              </nav>
+
+
+            
+
+
+
+          </div>
+        <div class="container ">
+            <section class="content-header">
+                <div class="container-fluid">
+                  
+                  <!-- Timelime example  -->
+                  <div class="row">
+                    
+                    <div class="col-md-6">
+                      <div class="row portfile-header">
+                        <h1>Projects</h1>
+                      </div>
+                      <!-- The time line -->
+                      <div class="timeline">
+                        <!-- timeline time label -->
+                        <div class="time-label">
+                          <span class="bg-green">Poutry invertory management system</span>
+                        </div>
+                        <!-- /.timeline-label -->
+                        <!-- timeline item -->
+                        <div>
+                          <i class="fas fa-industry bg-blue"></i>
+                          <div class="timeline-item">
+                            
+                           
+                            <div class="timeline-body">
+                              <ul>
+                                <li>Manage Sales</li>
+                                <li>Bird quantity( bought,sold, dead)</li>
+                                <li>Feeds management</li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+                        <div class="time-label">
+                          <span class="bg-green">Farmer registration system</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-users bg-green"></i>
+                          <div class="timeline-item">
+                            
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Farmer bio data (Name, age, location)</li>
+                                  <li>Farm information (land size, GPS location) </li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+
+                        <div class="time-label">
+                          <span class="bg-green">Coffee Supply chain</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-coffee bg-yellow"></i>
+                          <div class="timeline-item">
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Traceability of coffee from source to Export</li>
+                                  <li>Buying data</li>
+                                  
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+
+                        <div class="time-label">
+                          <span class="bg-green">Refugee registration system</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-users bg-maroon"></i>
+                          <div class="timeline-item">
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Capture bio data and other relevant information</li>
+                                  <li>Capture land size</li>
+                                  
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        
+                        
+                        
+                      </div>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-6 portfolio-work">
+                      <div class="row portfile-header">
+                        <h1>Work experience</h1>
+                      </div>
+                      <!-- The time line -->
+                      <div class="timeline">
+                        <!-- timeline time label -->
+                        <div class="time-label">
+                          <span class="bg-blue">2022 to current</span>
+                        </div>
+                        <!-- /.timeline-label -->
+                        <!-- timeline item -->
+                        <div>
+                          <i class="fas fa-industry bg-blue"></i>
+                          <div class="timeline-item">
+                            
+                            <h3 class="timeline-header">Save the future save the enviroment(IT officer)</h3>
+
+                            <div class="timeline-body">
+                              <ul>
+                                <li>Offer IT support</li>
+                                <li>Manage organisational website</li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+                        <div class="time-label">
+                          <span class="bg-blue">2020 to 2022</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-industry bg-green"></i>
+                          <div class="timeline-item">
+                            
+                            <h3 class="timeline-header ">
+                              Metajua Uganda limited (Senior software developer)</h3>
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Create and implement project plan and execution</li>
+                                  <li>Clarify the duties, roles and functions of team members between both prospective competing team members and their superiors</li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+
+                        <div class="time-label">
+                          <span class="bg-blue">2016 to 2019</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-industry bg-yellow"></i>
+                          <div class="timeline-item">
+                            
+                            <h3 class="timeline-header ">
+                              Metajua Uganda limited (Junior software developer)</h3>
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Studying project requirements and creating solutions</li>
+                                  <li>Creating databases and servers</li>
+                                  <li>Procuring project requirements from clients and stakeholders</li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        <!-- timeline item -->
+
+                        <div class="time-label">
+                          <span class="bg-blue">jun 2013 to jul 2013</span>
+                        </div>
+                        <div>
+                          <i class="fas fa-industry bg-maroon"></i>
+                          <div class="timeline-item">
+                            
+                            <h3 class="timeline-header ">
+                              Kampala capital city authority (Intern)</h3>
+                              <div class="timeline-body">
+                                <ul>
+                                  <li>Data entry and information management</li>
+                                  <li>Installing Operating Systems</li>
+                                  <li>Computer Hardware and software maintenance</li>
+                                </ul>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- END timeline item -->
+                        
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+      
+                </div><!-- /.container-fluid -->
+              </section>
+            
 
         
-            <footer class="row">
-                Designed by wb
-            </footer>
+            
         </div>
+        <footer class="main-footer">
+          <strong>Copyright &copy; 2025 </strong>
+          
+      </footer>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap 4 -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!-- AdminLTE App -->
+        <script src="js/adminlte.js"></script>
+      </div>
     </body>
 </html>
 
