@@ -2,63 +2,44 @@
 <html>
     <head>
         <title>personal-website</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!-- CSS Libraries -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--<link rel="stylesheet" href="css/bootstrap.v3-4-1.css"> -->
         <link rel="stylesheet" href="css/adminlte.css">
         <link rel="stylesheet" href="css/fontawesome-free/css/all.css">
-       <!--
-
-        <script src="js/jquery.v3-7-1.js"></script>
-        <script src="js/bootstrap.v3-4-1.js"></script>
+        
+        <!--
+<script src="js/jquery.v3-7-1.js"></script>
+        
        
+       <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv="refresh" content="200">
+        
+       <script src="js/jquery.v3-7-1.js"></script>
        --> 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body >
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <a class="navbar-brand" href="#">William.B</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                   
+              </ul>
+            </div>  
+          </nav>
         <div class="wrapper">
-        <div class="col-12 col-lg-12 main-menu">
-            <nav class="main-header navbar navbar-expand-md navbar-primary navbar-dark">
-                <div class="container">
-                  <a href="index.html" class="navbar-brand">
-                    <span class="brand-text font-weight-light">William.B</span>
-                  </a>
-            
-                  <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <!-- ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto" -->
-                  <div class="collapse navbar-collapse order-3 " id="navbarCollapse">
-                    <!-- Left navbar links -->
-                    <ul class="order-md-3 navbar-nav  ml-auto">
-                        <li class="nav-item d-none d-sm-inline-block active">
-                            <a href="#" class="nav-link">Home</a>
-                          </li>
-                          <li class="nav-item d-none d-sm-inline-block">
-                            <a href="portfolio.html" class="nav-link">Portfolio</a>
-                          </li><!--
-                          <li class="nav-item d-none d-sm-inline-block">
-                              <a href="contact.html" class="nav-link">Contact</a>
-                            </li>-->
-                      
-                    </ul>
-            
-                    
-                  </div>
-                  
-                  <!-- Right navbar links -->
-                  
-                </div>
-              </nav>
 
-
-            
-
-
-
-          </div>
         <div class="container ">
             <section class="content-header">
                 <div class="container-fluid">
@@ -179,11 +160,16 @@
             
         </footer>
         <!-- jQuery -->
+        
         <script src="js/jquery.js"></script>
         <!-- Bootstrap 4 -->
         <script src="js/bootstrap.bundle.js"></script>
         <!-- AdminLTE App -->
         <script src="js/adminlte.js"></script>
+        <script >
+             $('.navbar-toggler').on('click',function(){ 
+                $('#collapsibleNavbar').collapse('hide');})
+        </script>
     </div>
     </body>
 </html>

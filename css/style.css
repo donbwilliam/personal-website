@@ -50,3 +50,36 @@ footer{
 .portfile-header{
     margin-bottom: 5px;
 }
+/* Extra small  devices(phones)*/
+  @media (max-width: 600px) {
+    .prof-pic-div {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+         scroll-margin-top: 100px;
+        width: 90px;
+        height: inherit;
+        border-left: 0px #007bff  solid;
+      }
+  }
+  /* small devies(portrait tablets)*/
+  @media (min-width: 600px) {
+    
+  }
+  /*medium devices landscape*/
+  @media (min-width: 768px) {
+    
+  }
+  /*large devices (laptops)*/
+  @media (min-width: 992px) {
+    
+  }
+  .main-menu{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /*  */
+  code{
+    color: #343a40;
+    font-weight: 200;
+  }
